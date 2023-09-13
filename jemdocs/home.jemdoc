@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{home.html}, showsource
+= Welcome to Jianqi Chen's Homepage
+
+~~~
+{}{img_left}{e:Website/jemdoc/imgs/JianqiChen.jpg}{Jianqi Chen}{120px}{160px}{}{raw}
+
+
+Dr. Jianqi Chen {{<img src="e:Website/jemdoc/imgs/china.svg" height="13px">}} \n
+
+
+Postdoctoral Researcher\n
+
+[https://ece.hkust.edu.hk  Department of Electronic and Computer Engineering (ECE)]\n
+
+[https://hkust.edu.hk  The Hong Kong University of Science and Technology]\n
+
+Clear Water Bay Peninsula, New Territories, Hong Kong\n
+
+Email: [eejianqichen@ust.hk] \n
+
+Mobile: +(86) 187-3483-1085\n
+~~~
+
+
+== About me
+I received the B.S. degree in automation from Zhejiang University, Hangzhou, China, in 2014, and the Ph.D. degree in electrical engineering from City University of Hong Kong, China, in 2020.  I am currently with the Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology, as a Postdoctoral Researcher.
+
+
+{{<a href="https://scholar.google.com/citations?user=t0fTJngAAAAJ&hl=en"><img src="e:Website/jemdoc/imgs/google.svg" height="30px">
+<a href="https://orcid.org/0000-0002-7330-3040"><img src="e:Website/jemdoc/imgs/ORCID_iD.svg" height="30px">
+<a href="https://www.researchgate.net/profile/Jianqi-Chen-2"><img src="e:Website/jemdoc/imgs/ResearchGate.svg" height="30px"></a>}}\n
+
+
+
+== Research Interests
+- PID control.
+- Time-Delay systems.
+- Networked control and estimation. 
+- Security over cyber-physical systems.
+- Phase theory over electrical networks.
+
+== Recent News
+
+~~~
+TBD
+
+~~~
+
