@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="css/jacob.css" type="text/css" />
+<title>MathJax Example</title>
+</head>
+<body>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2725246-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+ var ga = document.createElement('script'); ga.type =
+ 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+   : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Jianqi Chen</div>
+<div class="menu-item"><a href="home.html">Home</a></div>
+<div class="menu-item"><a href="biography.html">Biography</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-item"><a href="honor.html">Honors&nbsp;and&nbsp;Awards</a></div>
+<div class="menu-item"><a href="activities.html">Academic&nbsp;Activities</a></div>
+<div class="menu-item"><a href="miscellaneous.html">Miscellaneous</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>MathJax Example</h1>
+</div>
+<p>In this modified version of <tt>jemdoc</tt>, a LaTeX equation block can be typed in as
+</p>
+<p style="text-align:center">
+\[
+\nabla \cdot \mathbf{D} = \rho_f\\
+\nabla \cdot \mathbf{B} = 0,\\
+\nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}\\
+\nabla \times \mathbf{H} = \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+\]
+</p><p>You can also align equations using LaTeX's <tt>aligned</tt> block:
+</p>
+<p style="text-align:center">
+\[
+\begin{aligned}
+\nabla \cdot \mathbf{D} &amp;= \rho_f\\
+\nabla \cdot \mathbf{B} &amp;= 0\\
+\nabla \times \mathbf{E} &amp;= -\frac{\partial\mathbf{B}}{\partial t}\\
+\nabla \times \mathbf{H} &amp;= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+\end{aligned}
+\]
+</p><p>To number the equation block, wrap the equations with LaTeX's <tt>equation</tt> block:
+</p>
+<p style="text-align:center">
+\[
+\begin{equation}
+\begin{aligned}
+\nabla \cdot \mathbf{D} &amp;= \rho_f\\
+\nabla \cdot \mathbf{B} &amp;= 0\\
+\nabla \times \mathbf{E} &amp;= -\frac{\partial\mathbf{B}}{\partial t}\\
+\nabla \times \mathbf{H} &amp;= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+\end{aligned}
+\end{equation}
+\]
+</p><p>Instead, you can use LaTeX's <tt>align</tt> (not <tt>aligned</tt>) block to number the individual equations:
+</p>
+<p style="text-align:center">
+\[
+\begin{align}
+\nabla \cdot \mathbf{D} &amp;= \rho_f\label{eq:D}\\
+\nabla \cdot \mathbf{B} &amp;= 0\label{eq:B}\\
+\nabla \times \mathbf{E} &amp;= -\frac{\partial\mathbf{B}}{\partial t}\label{eq:E}\\
+\nabla \times \mathbf{H} &amp;= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}\label{eq:H}
+\end{align}
+\]
+</p><p>You can also type inline equations as \(A x = b\).  Referencing equations is done as Eqs.&nbsp;\(\eqref{eq:E}\) and \(\eqref{eq:H}\).
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
