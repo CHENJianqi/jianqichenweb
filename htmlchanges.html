@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="css/jacob.css" type="text/css" />
-<title>Honors and Awards</title>
+<title>jemdoc &ndash; html changes</title>
 </head>
 <body>
 <!-- MathJax -->
@@ -44,29 +44,59 @@ _gaq.push(['_trackPageview']);
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Honors and Awards</h1>
-<div id="subtitle">
+<h1>jemdoc &ndash; html changes</h1>
 </div>
-</div>
-<ul>
-<li><p><b>Best Paper Nomination Award</b>, the 14th IFAC Workshop on Adaptive and Learning Control Systems, June, 2022.
+<p>jemdoc has a built-in default configuration. This configuration includes the
+particular html tags used when producing html. If you wish to adjust the html
+that jemdoc produces, you can provide a configuration file to override the
+built-in defaults.
 </p>
-</li>
-<li><p><b>Best Paper Award</b>, the 5th Chinese Conference on Swarm Intelligence and Cooperative Control, Feb, 2022.
+<h2>Example html change</h2>
+<p>Suppose you wanted to add <a href="http://www.google.com/analytics/" target=&ldquo;blank&rdquo;>Google
+Analytics</a> tracking to your website. That requires adding a short section of
+html before the <tt>&lt;/body&gt;</tt> tag.
 </p>
-</li>
-<li><p><b>Guan Zhao-Zhi Best Paper Award</b>, the 38th Chinese Control Conference, July, 2019.
+<p>First, find out which block needs to be changed by using
 </p>
-</li>
-<li><p>CityU Research Travel Grant, July, 2017.
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc --show-config
+</pre></div></div>
+<p>This prints the default html configuration. From this, the relevant
+configuration block (the one which includes the <tt>&lt;/body&gt;</tt> tag) has a title
+<tt>[bodyend]</tt>, and looks like
 </p>
-</li>
-<li><p>CityU Overseas Research Award, Jan. 2016&ndash;July, 2016.
+<div class="codeblock">
+<div class="blockcontent"><pre>
+[bodyend]
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div></div>
+<p>Create a new file <tt>mysite.conf</tt>, say, and put a new <tt>[bodyend]</tt> block
+inside it. The new file looks like this:
 </p>
-</li>
-<li><p>CityU Postgraduate Studentship, Sept. 2014&ndash;Aug, 2018.</p>
-</li>
-</ul>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+[bodyend]
+&lt;script src="http://www.google-analytics.com/urchin.js" type="text/javascript"&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+_uacct = "UA-0000000-0";
+urchinTracker();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div></div>
+<p>Include your new configuration file, with the <tt>-c</tt> option (<a href="using.html" target=&ldquo;blank&rdquo;>more
+details here</a>):
+</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -c mysite.conf index.jemdoc
+</pre></div></div>
+<p>This will pull in the new <tt>[bodyend]</tt> block from <tt>mysite.conf</tt>, but otherwise
+work as before.
+</p>
 <div id="footer">
 <div id="footer-text">
 Page generated 2023-09-13 23:35:40 中国标准时间, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.

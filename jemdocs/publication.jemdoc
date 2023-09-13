@@ -1,0 +1,71 @@
+# jemdoc: menu{MENU}{example.html}, addcss{example.css}
+= Publications
+
+== Submitted Papers
+- *J. Chen*, Q. Mao, D. Zhao, and C. Chen, "Robust stability and stabilizability conditions of time-delay systems against stochastic uncertainties", under reviewer in IEEE Trans. Automat. Contr., 2023.
+
+- *J. Chen*, W. Chen, C. Chen, and L. Qiu, "Phase preservation of n-port electrical networks under general connections", under reviewer in IEEE Trans. Automat. Contr., 2023. 
+
+- *J. Chen*, J. Wu, and J. Chen, "Small-Gain criteria for mean-square stability of random delay systems", under reviewer in Automatica, 2022.
+
+- *J. Chen*, T. Qi, Y. Ding, H. Peng, J. Chen, and S. Hara, "Mean-Square stability radii for stochastic robustness analysis", under reviewer in IEEE Trans. Automat. Contr., 2022. 
+
+- K. Fang, *J. Chen*, and J. Wu, "Clock synchronization with unknown and unmodeled disturbances over distributed networks", under reviewer in IEEE Trans. Contr. of Net. Syst., 2023.
+
+- X. Li, *J. Chen*, H. Zhang, J.Wei, and J.Wu, "Errors dynamics in affine group systems", under reviewer in IEEE Trans. Automat. Contr., 2023.
+
+- Q. Mao, *J. Chen*, J. Chen, L. Dou, B. Tian, and J. Wang "Computable robustness margins of unstable systems with mixed perturbations", under reviewer in Automatica, 2023.
+
+- Q. Mao, *J. Chen*, Q. Fan, L. Dou, and B. Tian, "Limits on stability margins of secondorder uncertain systems under PID control", under reviewer in Automatica., 2023.
+
+- D. Zhao, C. Chen, and *J. Chen*, "Small gain and small angle conditions for feedback stability analysis of linear stochastic systems", under reviewer in IEEE Trans. Automat. Contr., 2022.
+
+- Q. Mao, Y. Xu, *J. Chen*, J. Chen, and TT. Georgiou, "Classical stability margins by PID control", under reviewer in IEEE Trans. Automat. Contr., 2022. 
+
+== Journal Papers
+- *J. Chen*, T. Qi, and J. Chen,"Optimal networked state estimation in the presence of multi-channel correlated packet losses," Automatica, vol. 153, pp. 110855, 2023.
+
+- *J. Chen*, J. Wei, W. Chen, H. Sandberg, K. H. Johansson, and J. Chen, "Geometrical characterization of sensor placement of cone-invariant and multi-agent systems against undetectable zero dynamics attacks," SIAM Journal on Control and Optimization, vol. 60, pp.890-916, 2022.
+
+- *J. Chen*, D. Ma, Y. Xu, and J. Chen, "Delay robustness of PID control of second-order systems: Fundamental properties, pseudo-concavity and exact delay margin," IEEE Trans. Automat. Contr., vol. 67, pp.1194-1209, 2022. */(Full Paper)/*
+
+- D. Ma, *J. Chen*, R. Lu, J. Chen, and T. Chai, "Delay effect on first-order consensus over directed graphs: optimizing PID protocols for maximal robustness," SIAM Journal on Control and Optimization, vol. 60, pp.233-258, 2022.
+
+- D. Ma, I. Boussaada, *J. Chen*, C. Bonnet, S. I. Niculescu, and J.Chen "PID control design for first-order delay systems via MID pole placement: performance vs. robustness,"Automatica, vol. 137, pp. 110102, 2022. */(Regular Paper)/*
+
+- D. Ma, *J. Chen*, R. Lu, J. Chen, and T. Chai, "Delay consensus margin of first-order multi-agent systems with undirected graphs and PD protocols," IEEE Trans. Automat. Contr., vol. 66, pp. 4192-4198, 2021.
+
+- D. Ma, *J. Chen*, A. Liu, J. Chen, and S. I. Niculescu, "Explicit bounds for guaranteed stabilization by PID control of second-order unstable delay systems," Automatica, vol. 100, pp. 407-411, 2019.
+
+== Conference Papers
+- *J. Chen*, T. Qi and J. Chen, "Convergence Robustness of Kalman Filtering in the Presence of Multi-Channel Correlated Packet Losse" in Proc. of the 42th Chinese Control Conference, pp. E134-E137, 2023.
+
+- *J. Chen*, W. Chen, and L. Qiu, " Phase analysis of n-port electrical networks under interconnections," in Proc. of the 22nd IFAC World Congress, pp. 4697-4702, 2023.
+
+- C. Chen, W. Chen, D. Zhao, *J. Chen*, and L. Qiu, " A cyclic small phase theorem for MIMO LTI systems," in Proc. of the 22nd IFAC World Congress, pp. 2033-2038, 2023.
+
+- W. Wu, *J. Chen*, and J. Chen, " Stability analysis of systems with recurrent neural network controllers," in Proc. of the 14th IFAC Workshop on Adaptive and Learning Control Systems, pp. 170-175, 2022. */(Best Paper Award Finalist)/*
+
+- *J. Chen*, T. Qi, Y. Ding, H. Peng, J. Chen, and S. Hara, " Mean-Square stabilizability under unstructured stochastic multiplicative uncertainties: a mean-square small-gain perspective," in Proc. of 2022 American Control Conference, pp. 1164-1169, 2022.
+
+- *J. Chen*, T. Qi, and J. Chen, "Mean-Square stabilizability of low-order systems against correlated stochastic multiplicative uncertainties," in Proc. of the 5th Chinese Conference on Swarm Intelligence and Cooperative Control, pp. 1063-1074, 2021. */(Best Paper Award)/*
+
+- Q. Mao, Y. Xu, *J. Chen*, J. Chen, and TT. Georgiou, "Maximal gain and phase margins attainable by PID control," in Proc. of the 59th IEEE Conference on Decision and Control, pp. 1820-1825, 2021.
+
+- I. Boussaada, D. Ma, *J. Chen*, C. Bonnet, S. I. Niculescu, and J.Chen "Insights on pole-placement of dynamical systems by PID control with guaranteed delay robustness," in Proc. of the 16th IFAC Workshop on Time Delay Systems, pp. 118-123, 2021.
+
+- *J. Chen*, D. Ma, Y. Xu, and J. Chen, "Tradeoff between delay robustness and tracking performance by PID control: second-order unstable systems", in Proc. of the 59th IEEE Conference on Decision and Control, pp. 5891-5896, 2020.
+
+- *J. Chen* and J. Chen, "Tradeoff between delay margin and asymptotic tracking by PID control" , in Proc. of the European Control Conference, pp. 374-379, 2020.
+
+- D. Ma, *J. Chen*, R. Lu, and J. Chen, "Exact delay consensus margin of first-order agents under PID protocol", in Proc. of the 58th IEEE Conference on Decision and Control, pp. 54-59, 2019.
+
+- *J. Chen*, D. Ma, Y. Xu, and J. Chen, "Exact computation of delay margin by PID control: It suffices to solve a unimodal problem!" in Proc. of the 38th Chinese Control Conference, pp. 242-249, 2019. */(Guan Zhao-Zhi Best Paper Award)/*
+
+- *J. Chen* and J. Chen, "Kalman filtering over networks in presence of multi-channel correlated packet drops", in Proc. of the 15th International Conference on Control and Automation, pp. 1235-1240, 2019.
+
+- D. Ma, *J. Chen*, A. Liu, J. Chen, and S. I. Niculescu, "Lower bounds on delay margin of second-order unstable systems", in Proc. of the 14th IFAC Workshop on Time Delay Systems, pp. 242-247, 2018.
+
+- *J. Chen*, S. He, and J. Chen,"Mean-Square stability conditions for linear systems with random delays", in Proc. of the 13th World Congress on Intelligent Control and Automation, pp. 614-619, 2018.
+
+- *J. Chen*, J.Wei, W. Chen, H. Sandberg, K. H. Johansson, J. Chen, "Protecting positive and second-order systems against undetectable attacks", in Proc. of the 20th IFAC World Congress, pp. 8373-8378, 2017.
